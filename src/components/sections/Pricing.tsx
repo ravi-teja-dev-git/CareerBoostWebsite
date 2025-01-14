@@ -15,7 +15,7 @@ export default function Pricing() {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <PricingCard
             title="Trial Package"
-            price={299}
+            price={0.99}
             duration="2 months"
             features={[
               "Dedicated career expert",
@@ -31,7 +31,7 @@ export default function Pricing() {
           
           <PricingCard
             title="Premium Package"
-            price={699}
+            price={1.99}
             duration="6 months"
             isPopular={true}
             features={[

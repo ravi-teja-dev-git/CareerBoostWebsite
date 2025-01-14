@@ -15,7 +15,7 @@ export default function PaymentPage() {
   const navigate = useNavigate();
   const { plan, price, duration } = (location.state as LocationState) || {
     plan: 'Manual Application Service',
-    price: 299,
+    price: 0.99,
     duration: 'month'
   };
 
